@@ -1,12 +1,7 @@
 # oracle-11g
 
-# Connecting to Database using SQLPLUS - commands
+# Enter the below command to start Database
 
-`````
-
-sqlplus /nolog
-CONNECT SYS AS SYSDBA
-password: oracle
-startup
-
+````
+sh startdb.sh
 ````
