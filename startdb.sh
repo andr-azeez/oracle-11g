@@ -1,7 +1,7 @@
-# oracle-11g
+#!/bin/bash 
 
-# Enter the below command to start Database
-
-````
-sh startdb.sh
-````
+sqlplus /nolog << EOF 
+CONNECT SYS/oracle AS SYSDBA; 
+startup; 
+exit;
+EOF
