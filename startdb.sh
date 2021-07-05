@@ -11,3 +11,5 @@ CONNECT SYS/oracle AS SYSDBA;
 startup; 
 exit;
 EOF
+
+sqlplus SYS/oracle AS SYSDBA;
